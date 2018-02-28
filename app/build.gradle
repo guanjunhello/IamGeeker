@@ -37,5 +37,8 @@ dependencies {
     compile rootProject.ext.dependencies["dagger"]
     compile rootProject.ext.dependencies["dagger-compiler"]
 
+    compile rootProject.ext.dependencies["agentweb"]
+    compile rootProject.ext.dependencies["utilcode"]
+
     testCompile 'junit:junit:4.12'
 }

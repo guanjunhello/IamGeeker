@@ -12,6 +12,7 @@ import com.trello.rxlifecycle2.components.support.RxAppCompatActivity;
  */
 public abstract class BaseActivity<T extends BaseContract.BasePresenter> extends RxAppCompatActivity implements BaseContract.BaseView{
 
+    @Nullable
     protected T mPresenter;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

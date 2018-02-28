@@ -25,5 +25,8 @@ ext{
             //dagger2
             "dagger"              : "com.google.dagger:dagger:2.7",
             "dagger-compiler"     : "com.google.dagger:dagger-compiler:2.7",
+
+            "agentweb"            : "com.just.agentweb:agentweb:3.1.0",
+            "utilcode"            : "com.blankj:utilcode:1.12.6"
     ]
 }
