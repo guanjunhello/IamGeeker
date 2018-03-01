@@ -54,7 +54,7 @@ public class TestActivity extends AppCompatActivity {
         findViewById(R.id.btn_SmartRefreshLayout).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(TestActivity.this, XRecyclerViewActivity.class));
+                startActivity(new Intent(TestActivity.this, SmartRefreshActivity.class));
             }
         });
     }
