@@ -32,6 +32,8 @@
         </activity>
         <activity android:name=".XRecyclerViewActivity">
         </activity>
+        <activity android:name=".SmartRefreshActivity">
+        </activity>
     </application>
 
 </manifest>
