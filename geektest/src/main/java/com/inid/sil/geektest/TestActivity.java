@@ -57,5 +57,29 @@ public class TestActivity extends AppCompatActivity {
                 startActivity(new Intent(TestActivity.this, SmartRefreshActivity.class));
             }
         });
+        findViewById(R.id.btn_MD).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(TestActivity.this, MDActivity.class));
+            }
+        });
+        findViewById(R.id.btn_HorizontalRefresh).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(TestActivity.this, HorizontalRefreshActivity.class));
+            }
+        });
+        findViewById(R.id.btn_HorizontalRefresh2).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(TestActivity.this, HorizontalRefreshActivity2.class));
+            }
+        });
+        findViewById(R.id.btn_HorizontalRefresh3).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(TestActivity.this, HorizontalRefreshActivity3.class));
+            }
+        });
     }
 }

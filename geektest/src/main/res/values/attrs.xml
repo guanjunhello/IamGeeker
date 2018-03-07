@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PullLeftToRefreshLayout">
+        <attr name="footerBgColor" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="DiscreteScrollView">
+        <attr name="dsv_orientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="gallery_recyclerview">
+        <attr name="helper" format="string">
+            <enum name="LinearySnapHelper" value="0" />
+            <enum name="PagerSnapHelper" value="1" />
+        </attr>
+
+    </declare-styleable>
+</resources>

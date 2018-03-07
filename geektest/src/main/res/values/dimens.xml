@@ -2,4 +2,10 @@
     <dimen name="app_bar_height">200dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="text_margin">16dp</dimen>
+
+    <dimen name="dp_6">6dp</dimen>
+    <dimen name="dp_12">12dp</dimen>
+    <dimen name="dp_26">26dp</dimen>
+
+    <dimen name="sp_10">10sp</dimen>
 </resources>
