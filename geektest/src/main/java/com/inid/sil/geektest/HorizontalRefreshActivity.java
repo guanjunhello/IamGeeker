@@ -20,6 +20,11 @@ public class HorizontalRefreshActivity extends BaseActivity {
     }
 
     @Override
+    protected String setTitle() {
+        return "HorizontalRefresh";
+    }
+
+    @Override
     protected void initViews() {
         pullLeftRefresh = (PullLeftToRefreshLayout) findViewById(R.id.pullLeftRefresh);
         recyclerview = (DiscreteScrollView) findViewById(R.id.recyclerview);

@@ -8,7 +8,11 @@ public class StackBlurActivity extends BaseActivity {
     }
 
     @Override
-    protected void initViews() {
+    protected String setTitle() {
+        return "StackBlur";
+    }
 
+    @Override
+    protected void initViews() {
     }
 }

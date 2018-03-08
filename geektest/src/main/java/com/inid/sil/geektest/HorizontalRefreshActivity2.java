@@ -22,6 +22,11 @@ public class HorizontalRefreshActivity2 extends BaseActivity implements RefreshC
     }
 
     @Override
+    protected String setTitle() {
+        return "HorizontalRefresh2";
+    }
+
+    @Override
     protected void initViews() {
         refreshLayout = (HorizontalRefreshLayout) findViewById(R.id.refreshLayout);
         recyclerview = (GalleryRecyclerView) findViewById(R.id.recyclerview);

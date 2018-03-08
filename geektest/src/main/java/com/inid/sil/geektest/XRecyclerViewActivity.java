@@ -20,6 +20,11 @@ public class XRecyclerViewActivity extends BaseActivity implements XRecyclerView
     }
 
     @Override
+    protected String setTitle() {
+        return "XRecyclerView";
+    }
+
+    @Override
     protected void initViews() {
         xrecyclerview = (XRecyclerView) findViewById(R.id.xrecyclerview);
         xrecyclerview.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));

@@ -12,18 +12,21 @@ import android.view.MenuItem;
  */
 public abstract class BaseActivity extends AppCompatActivity{
 
+    private Toolbar toolbar;
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(getLayoutId());
 
-        initViews();
-
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        if(toolbar!=null){
+        toolbar = (Toolbar) findViewById(R.id.toolbar);
+        if(toolbar !=null){
+            toolbar.setTitle(setTitle());
             setSupportActionBar(toolbar);
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
+
+        initViews();
     }
 
     protected abstract int getLayoutId();
@@ -40,4 +43,15 @@ public abstract class BaseActivity extends AppCompatActivity{
         }
         return super.onOptionsItemSelected(item);
     }
+
+    protected String setTitle(){
+        return "";
+    }
+    protected void setTitle(String title){
+        if(toolbar!=null){
+            toolbar.setTitle(title);
+        }
+    }
+
+
 }

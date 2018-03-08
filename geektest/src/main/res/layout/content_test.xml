@@ -96,7 +96,16 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/text_margin"
             android:background="@color/trans"
-            android:text="Horizontal Refresh 3"
+            android:text="Horizontal Refresh 3 ( nice )"
+            android:textColor="@color/primary"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/btn_agentweb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:background="@color/trans"
+            android:text="AgentWeb"
             android:textColor="@color/primary"
             android:textSize="18sp"/>
     </LinearLayout>

@@ -28,6 +28,11 @@ public class MDActivity extends BaseActivity implements SwipeRefreshLayout.OnRef
     }
 
     @Override
+    protected String setTitle() {
+        return "MD";
+    }
+
+    @Override
     protected void initViews() {
         swiperefresh = (SwipeRefreshLayout) findViewById(R.id.swiperefresh);
         appbar = (AppBarLayout) findViewById(R.id.appbar);

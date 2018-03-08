@@ -9,6 +9,10 @@ public class GifDrawableActivity extends BaseActivity {
 
     @Override
     protected void initViews() {
+    }
 
+    @Override
+    protected String setTitle() {
+        return "GifDrawable";
     }
 }

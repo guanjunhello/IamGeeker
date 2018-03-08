@@ -23,6 +23,11 @@ public class SmartRefreshActivity extends BaseActivity implements OnRefreshListe
     }
 
     @Override
+    protected String setTitle() {
+        return "SmartRefresh";
+    }
+
+    @Override
     protected void initViews() {
         recyclerview = (RecyclerView) findViewById(R.id.recyclerview);
         refreshLayout = (RefreshLayout)findViewById(R.id.refreshlayout);

@@ -81,5 +81,11 @@ public class TestActivity extends AppCompatActivity {
                 startActivity(new Intent(TestActivity.this, HorizontalRefreshActivity3.class));
             }
         });
+        findViewById(R.id.btn_agentweb).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(TestActivity.this, AgentWebActivity.class));
+            }
+        });
     }
 }

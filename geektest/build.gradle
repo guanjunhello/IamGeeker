@@ -46,5 +46,6 @@ dependencies {
     compile 'com.gcssloop.widget:rclayout:1.4.6@aar'
     compile 'com.github.29995270:HorizontalRefreshLayout:1.0.1'
     compile 'ckrjfrog.Page:PageView:1.0.8'
+    compile 'com.just.agentweb:agentweb:1.2.2'
     testCompile 'junit:junit:4.12'
 }

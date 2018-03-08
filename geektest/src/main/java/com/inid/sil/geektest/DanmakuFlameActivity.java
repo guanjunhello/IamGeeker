@@ -163,6 +163,11 @@ public class DanmakuFlameActivity extends BaseActivity implements View.OnClickLi
         findViews();
     }
 
+    @Override
+    protected String setTitle() {
+        return "DanmakuFlame";
+    }
+
     private BaseDanmakuParser createParser(InputStream stream) {
 
         if (stream == null) {
