@@ -53,7 +53,7 @@ public class AgentWebActivity extends BaseActivity implements ChromeClientCallba
     }
 
     private String getUrl() {
-        return "http://www.jd.com";
+        return "https://www.toutiao.com/";
     }
 
     @Override

@@ -17,7 +17,7 @@
 
         <TextView
             android:id="@+id/btn_gif_drawable"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/text_margin"
             android:background="@color/trans"
@@ -27,7 +27,7 @@
 
         <TextView
             android:id="@+id/btn_stackblur"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/text_margin"
             android:background="@color/trans"
@@ -37,7 +37,7 @@
 
         <TextView
             android:id="@+id/btn_danmakuflame"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/text_margin"
             android:background="@color/trans"
@@ -47,7 +47,7 @@
 
         <TextView
             android:id="@+id/btn_xrecyclerview"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/text_margin"
             android:background="@color/trans"
@@ -56,7 +56,7 @@
             android:textSize="18sp"/>
         <TextView
             android:id="@+id/btn_SmartRefreshLayout"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/text_margin"
             android:background="@color/trans"
@@ -65,7 +65,7 @@
             android:textSize="18sp"/>
         <TextView
             android:id="@+id/btn_MD"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/text_margin"
             android:background="@color/trans"
@@ -74,7 +74,7 @@
             android:textSize="18sp"/>
         <TextView
             android:id="@+id/btn_HorizontalRefresh"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/text_margin"
             android:background="@color/trans"
@@ -83,7 +83,7 @@
             android:textSize="18sp"/>
         <TextView
             android:id="@+id/btn_HorizontalRefresh2"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/text_margin"
             android:background="@color/trans"
@@ -92,7 +92,7 @@
             android:textSize="18sp"/>
         <TextView
             android:id="@+id/btn_HorizontalRefresh3"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/text_margin"
             android:background="@color/trans"
@@ -101,11 +101,20 @@
             android:textSize="18sp"/>
         <TextView
             android:id="@+id/btn_agentweb"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/text_margin"
             android:background="@color/trans"
             android:text="AgentWeb"
+            android:textColor="@color/primary"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/btn_filedownloader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:background="@color/trans"
+            android:text="FileDownloader"
             android:textColor="@color/primary"
             android:textSize="18sp"/>
     </LinearLayout>

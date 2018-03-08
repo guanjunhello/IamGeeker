@@ -87,5 +87,11 @@ public class TestActivity extends AppCompatActivity {
                 startActivity(new Intent(TestActivity.this, AgentWebActivity.class));
             }
         });
+        findViewById(R.id.btn_filedownloader).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(TestActivity.this, FileDownloaderActivity.class));
+            }
+        });
     }
 }

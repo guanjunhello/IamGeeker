@@ -47,5 +47,6 @@ dependencies {
     compile 'com.github.29995270:HorizontalRefreshLayout:1.0.1'
     compile 'ckrjfrog.Page:PageView:1.0.8'
     compile 'com.just.agentweb:agentweb:1.2.2'
+    compile 'com.liulishuo.filedownloader:library:1.7.1'
     testCompile 'junit:junit:4.12'
 }
