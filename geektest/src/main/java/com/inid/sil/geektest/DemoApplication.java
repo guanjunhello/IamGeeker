@@ -24,7 +24,7 @@ public class DemoApplication extends Application {
     public void onCreate() {
         super.onCreate();
         Utils.init(this);
-        initSmartRefresh();
+//        initSmartRefresh();
     }
 
     private void initSmartRefresh() {
