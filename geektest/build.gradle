@@ -48,5 +48,6 @@ dependencies {
     compile 'ckrjfrog.Page:PageView:1.0.8'
     compile 'com.just.agentweb:agentweb:1.2.2'
     compile 'com.liulishuo.filedownloader:library:1.7.1'
+    compile 'com.yanzhenjie:sofia:1.0.4'
     testCompile 'junit:junit:4.12'
 }

@@ -93,5 +93,17 @@ public class TestActivity extends AppCompatActivity {
                 startActivity(new Intent(TestActivity.this, FileDownloaderActivity.class));
             }
         });
+        findViewById(R.id.btn_taskscheduler).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(TestActivity.this, TaskSchedulerActivity.class));
+            }
+        });
+        findViewById(R.id.btn_sofia).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(TestActivity.this, SofiaActivity.class));
+            }
+        });
     }
 }
