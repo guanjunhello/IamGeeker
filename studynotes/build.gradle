@@ -5,7 +5,7 @@ android {
     buildToolsVersion "27.0.0"
 
     defaultConfig {
-        applicationId "com.inid.sil.geektest"
+        applicationId "com.inid.sil.studynotes"
         minSdkVersion 15
         targetSdkVersion 26
         versionCode 1
@@ -23,32 +23,20 @@ android {
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile fileTree(dir: 'libs', include: ['*.jar'])
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    //没有使用特殊Header，可以不加这行
     compile 'com.android.support:appcompat-v7:26.+'
-    compile 'com.android.support.constraint:constraint-layout:1.0.2'
-    compile 'pl.droidsonroids.gif:android-gif-drawable:1.2.10'
-    compile 'com.github.ctiao:DanmakuFlameMaster:0.9.24'
-    compile 'com.github.ctiao:ndkbitmap-armv7a:0.9.21'
-    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
-    compile 'com.jcodecraeer:xrecyclerview:1.5.9'
     compile 'com.android.support:design:26.+'
     compile 'com.android.support:recyclerview-v7:26.0.0-alpha1'
     compile 'com.android.support:cardview-v7:26.0.0-alpha1'
-    compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.35'
-    compile 'com.scwang.smartrefresh:SmartRefreshLayout:1.0.5.1'
-    compile 'com.scwang.smartrefresh:SmartRefreshHeader:1.0.5.1'
-    compile 'com.github.bumptech.glide:glide:3.8.0'
+    compile 'com.github.tiagohm.MarkdownView:library:0.19.0'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
     compile 'com.blankj:utilcode:1.13.1'
+    compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.35'
+    compile 'com.github.AndroidDeveloperLB:AutoFitTextView:4'
     compile 'com.gcssloop.widget:rclayout:1.4.6@aar'
     compile 'com.gcssloop.recyclerview:pagerlayoutmanager:2.2.2@aar'
-    compile 'com.github.29995270:HorizontalRefreshLayout:1.0.1'
-    compile 'ckrjfrog.Page:PageView:1.0.8'
-    compile 'com.just.agentweb:agentweb:1.2.2'
-    compile 'com.liulishuo.filedownloader:library:1.7.1'
-    compile 'com.yanzhenjie:sofia:1.0.4'
     testCompile 'junit:junit:4.12'
 }

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">学习笔记</string>
+    <string name="book_java">Java知识点</string>
+    <string name="book_firstline">第一行代码(第二版)</string>
+    <string name="book_androidhero">Android群英传</string>
+    <string name="book_androidarticle">Android开发艺术探索</string>
+    <string name="book_designpattern">Android源码设计模式解析与实战</string>
+</resources>

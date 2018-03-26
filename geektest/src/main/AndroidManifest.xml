@@ -56,6 +56,8 @@
         </activity>
         <activity android:name=".SofiaActivity">
         </activity>
+        <activity android:name=".PagerLayoutActivity">
+        </activity>
     </application>
 
 </manifest>
